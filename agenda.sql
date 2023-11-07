@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 INSERT INTO `user` (`id`, `nome`, `senha`, `dt_inclusao`) VALUES
 (6, 'ale', '123456', '2022-06-26'),
-(5, 'higor', 'clemes2001', '2022-06-26');
+(5, 'higor', '123456', '2022-06-26');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
